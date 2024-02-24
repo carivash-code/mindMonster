@@ -4,6 +4,7 @@ import { TitleLgAndDescription } from "../../components/ui/titles/TitleLgAndDesc
 import ImageLeft from "../../assets/img/IMG-Tentaculo.png";
 import { ColNumberAndCircle } from "../../components/sections/ColNumberAndCircle";
 import {works} from '../../constants/index';
+import {numbers} from '../../constants/numbers'
 
 export const HomeArea = () => {
   const description =
@@ -20,10 +21,7 @@ export const HomeArea = () => {
           description={description}
         />
         <ColNumberAndCircle
-          number1={12}
-          number2={35}
-          textNumber1="ANOS DE EXPERIENCIA"
-          textNumber2="CASOS DE ÉXITO"
+          numbersData={numbers}
           circleText1="PORTAFOLIO"
           circleText2="LATEST PROJECTS"
           circleText3="PORTAFOLIO"

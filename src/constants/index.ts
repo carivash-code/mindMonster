@@ -11,4 +11,4 @@ export const works = [
   'espacios comerciales.',
   'espacios interiores.',
   'espacios efimeros.',
-]
+];
