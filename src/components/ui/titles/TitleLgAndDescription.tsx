@@ -1,16 +1,18 @@
 interface Props {
   title: string;
   titleStrong: string;
+  texts: string[];
   subTitle?: string;
-  subTitleStrong?: string;
   description?: string;
   className?: string;
 }
+ import './TitleLgAndDescription.scss';
+
 export const TitleLgAndDescription = ({
   title,
   titleStrong,
+  texts,
   subTitle,
-  subTitleStrong,
   description,
   className,
 }: Props) => {
@@ -23,7 +25,20 @@ export const TitleLgAndDescription = ({
       </h1>
       {subTitle && (
         <h2 className="h1">
-          {subTitle} <span>{subTitleStrong}</span>
+          <div className='content'>
+          {subTitle}
+           <div className="visible">
+              <ul className='ul-list '>
+                {texts.map((text, index) => (
+                  <li key={index} className='li-item'>
+                    <span>
+                    {text}
+                    </span>
+                    </li>
+                ))}
+              </ul>
+            </div> 
+          </div>
         </h2>
       )}
       {description && <p>{description}</p>}

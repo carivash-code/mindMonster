@@ -1,0 +1,94 @@
+.content {
+  width:388px;
+  position: relative;
+}
+
+.visible {
+  overflow:hidden;
+  height:60px;  
+  position: absolute;
+  top: 0;
+}
+
+
+.ul-list {
+  padding-left:396px;
+  white-space: nowrap;
+  text-align:left;
+  list-style: none;
+  animation: 40s linear 0s normal none infinite change;
+  -webkit-animation:40s linear 0s normal none infinite change;
+  -moz-animation:40s linear 0s normal none infinite change;
+  -o-animation:40s linear 0s normal none infinite change;
+}
+
+.ul-list  .li-item {
+  line-height: 40px; /* Mantén o ajusta según el tamaño de tu fuente */
+  padding: 10px 0; /* Agrega padding vertical para más espacio */
+  margin-bottom: -3px;
+}
+
+@-webkit-keyframes opacity {
+  0%   {opacity:0;}
+  50%  {opacity:1;}
+  100% {opacity:0;}
+}
+@keyframes opacity {
+  0%   {opacity:0;}
+  50%  {opacity:1;}
+  100% {opacity:0;}
+}
+
+@-webkit-keyframes change {
+  0%, 4.34%    { transform: translateY(-7px); }      /* Estado inicial, mostrando el primer elemento */
+  5.35%, 8.68%   { transform: translateY(-64px); }    /* rtetail*/
+  9.68%, 13.02%  { transform: translateY(-121px); }   /* 3er displays */
+  14.02%, 17.36%  { transform: translateY(-177px); }   /* 4to p.o.p */
+  18.36%, 21.7%  { transform: translateY(-235px); }   /* marketinmg digitañ */
+  22.7%, 26.04%  { transform: translateY(-292px); }   /* category management */
+  27.04%, 30.38%  { transform: translateY(-349px); }   /* diseño de producto */
+  31.38%, 34.72%  { transform: translateY(-405px); }   /* identidad corporativa */
+  35.72%, 39.06%  { transform: translateY(-463px); }   /* mobiliria*/
+  40.06%, 43.4%  { transform: translateY(-520px); }   /* esp comerciles */
+  44.4%, 47.74%  { transform: translateY(-577px); }   /* 11vo interiores */
+  48.74%, 52.08%  { transform: translateY(-634px); }   /* 12vo efimeros */
+  53.08%, 56.42%  { transform: translateY(-577px); }   /* 11vo interiores */
+  57.42%, 60.76%  { transform: translateY(-520px); }   /* esp comerciles */
+  61.76%, 65.1%  { transform: translateY(-463px); }   /* mobiliria*/
+  66.1%, 69.44%  { transform: translateY(-405px); }   /* identidad corporativa */
+  70.44%, 73.78%  { transform: translateY(-349px); }   /* diseño de producto */
+  74.78%, 78.12%  { transform: translateY(-292px); }   /* category management */
+  79.12%, 82.46%  { transform: translateY(-235px); }   /* marketinmg digitañ */
+  83.46%, 86.8%  { transform: translateY(-177px); }   /* 4to p.o.p */
+  87.8%, 91.14%  { transform: translateY(-121px); }   /* 3er displays */
+  92.14%, 95.48%   { transform: translateY(-64px); }    /* rtetail*/
+  96.48%, 100% { transform: translateY(-7px); }     /*inicio*/ 
+}
+
+
+
+@keyframes change {
+  0%, 4.34%    { transform: translateY(-7px); }      /* Estado inicial, mostrando el primer elemento */
+  5.35%, 8.68%   { transform: translateY(-64px); }    /* rtetail*/
+  9.68%, 13.02%  { transform: translateY(-121px); }   /* 3er displays */
+  14.02%, 17.36%  { transform: translateY(-177px); }   /* 4to p.o.p */
+  18.36%, 21.7%  { transform: translateY(-235px); }   /* marketinmg digitañ */
+  22.7%, 26.04%  { transform: translateY(-292px); }   /* category management */
+  27.04%, 30.38%  { transform: translateY(-349px); }   /* diseño de producto */
+  31.38%, 34.72%  { transform: translateY(-405px); }   /* identidad corporativa */
+  35.72%, 39.06%  { transform: translateY(-463px); }   /* mobiliria*/
+  40.06%, 43.4%  { transform: translateY(-520px); }   /* esp comerciles */
+  44.4%, 47.74%  { transform: translateY(-577px); }   /* 11vo interiores */
+  48.74%, 52.08%  { transform: translateY(-634px); }   /* 12vo efimeros */
+  53.08%, 56.42%  { transform: translateY(-577px); }   /* 11vo interiores */
+  57.42%, 60.76%  { transform: translateY(-520px); }   /* esp comerciles */
+  61.76%, 65.1%  { transform: translateY(-463px); }   /* mobiliria*/
+  66.1%, 69.44%  { transform: translateY(-405px); }   /* identidad corporativa */
+  70.44%, 73.78%  { transform: translateY(-349px); }   /* diseño de producto */
+  74.78%, 78.12%  { transform: translateY(-292px); }   /* category management */
+  79.12%, 82.46%  { transform: translateY(-235px); }   /* marketinmg digitañ */
+  83.46%, 86.8%  { transform: translateY(-177px); }   /* 4to p.o.p */
+  87.8%, 91.14%  { transform: translateY(-121px); }   /* 3er displays */
+  92.14%, 95.48%   { transform: translateY(-64px); }    /* rtetail*/
+  96.48%, 100% { transform: translateY(-7px); }     /*inicio*/
+}

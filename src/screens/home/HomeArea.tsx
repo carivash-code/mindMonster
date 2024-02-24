@@ -3,6 +3,7 @@ import { TitleLgAndDescription } from "../../components/ui/titles/TitleLgAndDesc
 
 import ImageLeft from "../../assets/img/IMG-Tentaculo.png";
 import { ColNumberAndCircle } from "../../components/sections/ColNumberAndCircle";
+import {works} from '../../constants/index';
 
 export const HomeArea = () => {
   const description =
@@ -14,8 +15,8 @@ export const HomeArea = () => {
         <TitleLgAndDescription
           title="Bienvenid@s a"
           titleStrong="MIND MONSTER LAB."
+          texts={works}
           subTitle="Nosotros diseñamos"
-          subTitleStrong="soluciones para punto de venta."
           description={description}
         />
         <ColNumberAndCircle
