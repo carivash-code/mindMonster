@@ -1,0 +1,24 @@
+@import "../../utils/index.scss";
+
+.Title__lg__and__description {
+  h1 {
+    color: var(--tp-common-white);
+    font-family: "fontRegular";
+  }
+  h2 {
+    color: var(--tp-common-white);
+    font-family: "fontRegular";
+  }
+  span {
+    color: var(--tp-common-secondary);
+    font-family: "fontRegular";
+  }
+  p {
+    font-family: "fontBold";
+    color: var(--tp-common-gray);
+    margin-top: 2rem;
+    padding-right: 60%;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+  }
+}

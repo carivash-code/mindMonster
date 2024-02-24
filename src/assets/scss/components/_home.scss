@@ -1,0 +1,15 @@
+@import "../utils/index.scss";
+
+.screen-home {
+  background-color: var(--tp-common-primary);
+  height: 100vh;
+  width: calc(100vw - 15vw);
+  background-position: center;
+  background-size: contain;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  .container-custom {
+    padding: 5% 10%;
+  }
+}

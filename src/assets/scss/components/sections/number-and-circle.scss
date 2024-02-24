@@ -1,0 +1,59 @@
+@import "../../utils/index.scss";
+
+.col__number__and__circle {
+  .title {
+    color: var(--tp-common-secondary);
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    padding: 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: "fontRegular";
+    font-weight: 600;
+  }
+
+  .col-numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+
+    & .number {
+      & h3 {
+        font-size: 4rem;
+        line-height: 4rem;
+        text-align: center;
+        font-weight: 600;
+        color: var(--tp-common-secondary);
+        padding: 0;
+        font-family: "fontRegular";
+      }
+      & span {
+        font-weight: 600;
+        padding: 0;
+        font-family: "fontRegular";
+      }
+    }
+  }
+  .col-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & .circle-container {
+      position: relative;
+      animation: rotateCircle 20s linear infinite;
+      margin-top: -2rem;
+      font-family: "fontRegular";
+    }
+  }
+}
+
+@keyframes rotateCircle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
