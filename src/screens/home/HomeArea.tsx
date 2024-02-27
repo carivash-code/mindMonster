@@ -4,9 +4,20 @@ import { TitleLgAndDescription } from "../../components/ui/titles/TitleLgAndDesc
 import ImageLeft from "../../assets/img/IMG-Tentaculo.png";
 import { ColNumberAndCircle } from "../../components/sections/ColNumberAndCircle";
 import {works} from '../../constants/index';
-import {numbers} from '../../constants/numbers'
+import {numbers, numbersEmpty} from '../../constants/numbers'
+import { useEffect, useState } from "react"
+import { numbersType } from "../../Types/NumbersType"
 
 export const HomeArea = () => {
+  const [numberValue, setNumber] = useState<numbersType[]>([]);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setNumber(numbers);
+    }, 500);
+    setNumber(numbersEmpty);
+  }, []);
+
   const description =
     "Imprimimos un sello único a cada propuesta creativa. Nos emocionamos contigo y te acompañamos hasta ver tus ideas realizadas";
   return (
@@ -21,7 +32,7 @@ export const HomeArea = () => {
           description={description}
         />
         <ColNumberAndCircle
-          numbersData={numbers}
+          numbersData={numberValue}
           circleText1="PORTAFOLIO"
           circleText2="LATEST PROJECTS"
           circleText3="PORTAFOLIO"
