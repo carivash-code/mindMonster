@@ -29,7 +29,7 @@ export const ColNumberAndCircle = ({
       <div className="col-12 title">
         <h3>CONTACTO</h3>
       </div>
-      <div className="col-xxl-6 col-xl-6 col-lg-6 col-12 col-numbers">
+      <div className="col-xxl-6 col-xl-6 col-lg-8 col-12 col-numbers">
         {numbersData.map((item) => (
           <div className="number">
             <h3 style={genNumber(item.number)}  className="counter-number"></h3>
@@ -37,7 +37,7 @@ export const ColNumberAndCircle = ({
           </div>
         ))}
       </div>
-      <div className="col-xxl-6 col-xl-6 col-lg-6 col-12 col-circle">
+      <div className="col-xxl-6 col-xl-6 col-lg-4 col-12 col-circle">
         <div className="circle-container">
           {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
           {/* @ts-expect-error */}

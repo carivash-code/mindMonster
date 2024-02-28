@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { get_user } from '../redux/features/auth-slice';
-import { User } from '../interfaces/auth';
+import { useDispatch } from 'react-redux';
+// import { get_user } from '../redux/features/auth-slice';
+// import { User } from '../interfaces/auth';
 // import { useNavigate } from 'react-router-dom';
 
 export const useUser = () => {
@@ -9,12 +9,12 @@ export const useUser = () => {
   const [isLoadingUser, setIsLoadingUser] = useState(true);
 
   const dispatch = useDispatch();
-  const { user: userData }: { user: User } = useSelector(
-    (state: any) => state.auth
-  );
+  // const { user: userData }: { user: User } = useSelector(
+  //   (state: any) => state.auth
+  // );
 
   useEffect(() => {
-    dispatch(get_user());
+    // dispatch(get_user());
     setIsLoadingUser(false);
   }, [dispatch]);
 
@@ -24,7 +24,7 @@ export const useUser = () => {
 
   return {
     isLoadingUser,
-    userData,
+    // userData,
     // verifyLoggedUser,
   };
 };

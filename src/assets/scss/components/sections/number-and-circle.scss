@@ -57,3 +57,33 @@
     transform: rotate(360deg);
   }
 }
+
+@media(max-width: 1440px) {
+  .col__number__and__circle { 
+    .col-numbers {
+      gap: 1rem;
+      & .number {
+        & span {
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 1024px) {
+  .col__number__and__circle { 
+    .col-numbers {
+      gap: 3rem;
+      & h3 {
+        font-size: 3rem !important;
+      }
+      & .number {
+        & span {
+          white-space: nowrap;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
