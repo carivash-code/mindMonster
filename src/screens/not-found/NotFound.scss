@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  left: 0;
+  right: 0;
+  background-color: #000;
+}
+
+h1 {
+  padding: 12px 0;
+}
+
+p{
+  text-decoration: underline;
+}
+
+html, body {
+  background-color: #000;
+}
