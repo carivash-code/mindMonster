@@ -92,3 +92,19 @@
   92.14%, 95.48%   { transform: translateY(-64px); }    /* rtetail*/
   96.48%, 100% { transform: translateY(-7px); }     /*inicio*/
 }
+
+@media (max-width: 1024px) {
+  .Title__lg__and__description {
+    h2 {
+      font-size: 30px;
+    }
+
+    .ul-list {
+      padding-left: 295px;
+    }
+
+    .content {
+      padding-top: 6px;
+    }
+  } 
+}
