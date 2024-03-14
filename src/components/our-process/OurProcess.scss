@@ -1,0 +1,47 @@
+
+
+.process-page {
+  margin: auto;
+  min-width: 1000px;
+}
+
+.container-process {
+  width: auto;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.img1 {
+  position: absolute;
+  width: 970px;
+  padding-top: 41px;
+  padding-left: 17px;
+}
+
+.img2 {
+  position: absolute;
+  width: 1000px;
+}
+
+.img3 {
+  position: absolute;
+  bottom: 0;
+  width: 1000px;
+  padding-top: 250px;
+  padding-bottom: 200px;
+}
+
+.title-page {
+  width: 100%;
+  padding-bottom: 60px;
+
+  & h1 {
+    text-transform: uppercase;
+  }
+}
+
+.wrapper-map {
+  position: fixed;
+  top: 0;
+  padding-top: 350px;
+}

@@ -6,7 +6,7 @@
   width: 15vw;
   display: flex;
   justify-content: center;
-  padding-top: 10%;
+  padding-top: 15%;
 
   ul {
     display: flex;
@@ -20,4 +20,12 @@
       font-family: "fontRegular";
     }
   }
+}
+
+.selected {
+  color: white;
+}
+
+.selected:hover {
+  color: white;
 }

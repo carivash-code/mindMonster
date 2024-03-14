@@ -2,31 +2,31 @@ export const links = [
   {
     id: 1,
     title: "Services",
-    link: "/",
+    link: "/services",
   },
   {
     id: 2,
     title: "Projects",
-    link: "/",
+    link: "/not-found",
   },
   {
     id: 3,
     title: "Process",
-    link: "/",
+    link: "/process",
   },
   {
     id: 4,
     title: "Monsters",
-    link: "/",
+    link: "/not-found",
   },
   {
     id: 5,
     title: "Store",
-    link: "/",
+    link: "/not-found",
   },
   {
     id: 6,
     title: "Connect",
-    link: "/",
+    link: "/not-found",
   },
 ];
