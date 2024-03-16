@@ -26,7 +26,6 @@
   border: 1px solid rgb(109, 109, 109);
   border-radius: 2px;
   padding: 8px;
-  // cursor: pointer;
 }
 
 .title-page {
@@ -48,12 +47,10 @@ h1, h4, h5 {
   color: inherit;
   cursor: pointer;
   width: auto;
-  min-width: calc(33% - 2rem);
   height: auto;
-  min-height: 70px;
+  min-height: 100px;
   min-width: 300px;
   perspective: 1000px;
-  // margin: 1rem;
   position: relative;
 }
 
@@ -63,7 +60,6 @@ h1, h4, h5 {
   border-radius: 6px;
   background-position: center;
   background-size: cover;
-  // text-align: center;
   justify-content: center;
   position: absolute;
   height: 100%;
@@ -72,15 +68,10 @@ h1, h4, h5 {
   backface-visibility: hidden;
   transform-style: preserve-3d;
   transition: ease-in-out 600ms;
-  // overflow: hidden;
 }
 
 .front {
   background-size: cover;
-  // background-blend-mode: overlay;
-  // padding: 2rem;
-  // font-size: 1.618rem;
-  // font-weight: 600;
   color: #fff;
   overflow: hidden;
   font-family: Poppins, sans-serif;
@@ -93,7 +84,6 @@ h1, h4, h5 {
     right: 0;
     bottom: 0;
     background: #000;
-    // opacity: .25;
     z-index: -1;
   }
   .card:hover & {

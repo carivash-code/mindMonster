@@ -2,7 +2,7 @@
 
 .process-page {
   margin: auto;
-  min-width: 1000px;
+  min-width: 1200px;
 }
 
 .container-process {
@@ -24,17 +24,17 @@
 }
 
 .img3 {
-  position: absolute;
   bottom: 0;
-  width: 1000px;
-  padding-top: 250px;
-  padding-bottom: 200px;
+  width: 968px;
+  padding-top: 340px;
+  padding-bottom: 5px;
+  padding-left:112px;
 }
 
 .title-page {
   width: 100%;
   padding-bottom: 60px;
-
+  padding-left: 160px;
   & h1 {
     text-transform: uppercase;
   }
@@ -43,5 +43,45 @@
 .wrapper-map {
   position: fixed;
   top: 0;
-  padding-top: 350px;
+  padding-top: 255px;
+  width: 100%;
+}
+
+.wrapper-map2 {
+  position: fixed;
+  top: 0;
+  padding-top: 255px;
+  width: 100%;
+}
+
+.process1 {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  padding-top: 138px;
+  width: 100%;
+  gap: 35px;
+  padding-left: 30px;
+}
+.process2 {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  padding-top: 15px;
+  width: auto;
+  gap: 35px;
+  padding-left: 126px;
+}
+
+.processContent {
+  max-width: 80px;
+  text-align: center;
+  font-size: 12px;
+  color: rgb(212, 212, 212) !important;
+}
+
+.processContent2 {
+  text-align: center;
+  font-size: 11px;
+  color: rgb(212, 212, 212) !important;
 }
